@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rana Rafay | AI Backend Engineer & Software Developer</title>
+    <meta name="description" content="Portfolio of Rana Rafay, Software Engineering student at COMSATS University Wah specializing in FastAPI, Inngest background pipelines, and AI agent architectures.">
+    
+    <!-- Open Graph / Social Preview Meta -->
+    <meta property="og:title" content="Rana Rafay | AI Backend Engineer">
+    <meta property="og:description" content="Explore my backend projects, AI agent workflows, and get in touch.">
+    <meta property="og:type" content="website">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚀</text></svg>">
+
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-primary: #f8fafc;
+            --text-secondary: #94a3b8;
+            --accent: #38bdf8;
+            --accent-hover: #0ea5e9;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            line-height: 1.6;
+            margin: 0;
+            padding: 1rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            box-sizing: border-box;
+        }
+        .container {
+            width: 100%;
+            max-width: 700px;
+            padding: 0.5rem;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: var(--card-bg);
+            border-radius: 12px;
+            padding: 1.75rem;
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+        h1 {
+            font-size: 1.75rem;
+            margin: 0 0 0.25rem 0;
+            color: var(--text-primary);
+        }
+        .tagline {
+            color: var(--accent);
+            font-size: 1.05rem;
+            font-weight: 600;
+            margin-bottom: 1.25rem;
+        }
+        p {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            margin-bottom: 1.25rem;
+        }
+        .section-title {
+            font-size: 1.1rem;
+            margin-top: 1.75rem;
+            margin-bottom: 0.75rem;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            padding-bottom: 0.4rem;
+        }
+        .links-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0.75rem;
+            margin-top: 1rem;
+        }
+        .btn {
+            display: block;
+            text-align: center;
+            background-color: rgba(56, 189, 248, 0.1);
+            color: var(--accent);
+            padding: 0.85rem 1rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95rem;
+            border: 1px solid rgba(56, 189, 248, 0.2);
+            transition: all 0.2s ease;
+            box-sizing: border-box;
+        }
+        .btn:active, .btn:hover {
+            background-color: var(--accent);
+            color: var(--bg-color);
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 0.85rem;
+            margin-top: 1rem;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 0.85rem;
+            border-radius: 8px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            background-color: rgba(15, 23, 42, 0.6);
+            color: var(--text-primary);
+            font-family: inherit;
+            font-size: 1rem;
+            box-sizing: border-box;
+        }
+        input:focus, textarea:focus {
+            outline: none;
+            border-color: var(--accent);
+            box-shadow: 0 0 0 2px rgba(56, 189, 248, 0.2);
+        }
+        button.submit-btn {
+            background-color: var(--accent);
+            color: var(--bg-color);
+            padding: 0.85rem 1rem;
+            border-radius: 8px;
+            border: none;
+            font-weight: 600;
+            font-size: 1rem;
+            cursor: pointer;
+            width: 100%;
+            transition: opacity 0.2s ease;
+        }
+        button.submit-btn:active {
+            opacity: 0.8;
+            transform: scale(0.99);
+        }
+        footer {
+            text-align: center;
+            margin-top: 1.75rem;
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+        }
+        .badge-wrapper {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            margin-top: 0.5rem;
+        }
+
+        @media (min-width: 640px) {
+            body { padding: 2rem; }
+            header { padding: 2.5rem; }
+            h1 { font-size: 2rem; }
+            .tagline { font-size: 1.15rem; }
+            .links-grid { grid-template-columns: repeat(4, 1fr); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Rana Rafay</h1>
+            <div class="tagline">AI Backend Engineer & Software Engineering Student</div>
+            <p>
+                I build reliable backend systems, event-driven background job pipelines (FastAPI, Inngest), and integrated AI agent workflows. Currently studying Software Engineering at COMSATS University Wah.
+            </p>
+
+            <div class="section-title">Connect & Profiles</div>
+            <div class="links-grid">
+                <a href="https://github.com/RanaRafay-prog" class="btn" target="_blank">GitHub</a>
+                <a href="https://linkedin.com" class="btn" target="_blank">LinkedIn</a>
+                <a href="#" class="btn" target="_blank">CV</a>
+                <a href="#" class="btn" target="_blank">Book Call</a>
+            </div>
+
+            <div class="section-title">Featured Projects</div>
+            <p style="font-size: 0.9rem;">
+                • <strong>Inngest Background Job Pipeline:</strong> Event-driven background processing with FastAPI, idempotency, and automated retries.<br>
+                • <strong>AI Study Coach Agent:</strong> Personal academic assistant powered by local filesystem MCP tool connectors.
+            </p>
+
+            <div class="section-title">Get in Touch</div>
+            <form name="contact" method="POST" netlify>
+                <input type="text" name="name" placeholder="Your Name" required />
+                <input type="email" name="email" placeholder="Your Email Address" required />
+                <textarea name="message" rows="4" placeholder="Your Message..." required></textarea>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </header>
+        <footer>
+            <div>&copy; 2026 Rana Rafay. Hosted securely on Netlify.</div>
+            
+            <!-- Official FlyRank Graduate Badge -->
+            <div class="badge-wrapper">
+                <a href="https://internship.flyrank.ai/verify?id=FR-D1-T668H-R789R&amp;first_name=Amina" target="_blank" rel="noopener noreferrer"
+                   aria-label="Verify credential FR-D1-T668H-R789R"
+                   style="box-sizing:border-box;margin:0;padding:18px;border:0;background:#FFFFFF;text-decoration:none;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-style:normal;line-height:1.25;text-transform:none;float:none;-webkit-font-smoothing:antialiased;display:flex;flex-direction:column;justify-content:space-between;width:184px;height:184px;border:1px solid #DDE4E7;border-radius:20px;box-shadow:0 1px 2px rgba(5,31,33,0.05)">
+                  <span style="margin:0;padding:0;border:0;background:none;color:inherit;font-weight:400;font-style:normal;letter-spacing:normal;text-transform:none;text-decoration:none;white-space:normal;float:none;display:flex;align-items:flex-start;justify-content:space-between">
+                    <svg width="34" height="34" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" style="display:block;flex:none;opacity:1;transform:none;max-width:none"><rect width="96" height="96" rx="22" fill="#051F21" /><path d="M28.2354 74.2202V67.9039C29.6419 68.4369 31.3724 68.7055 33.4311 68.7055C35.3235 68.7055 36.8153 68.2396 37.8979 67.3079C38.9805 66.3762 39.9566 64.8695 40.8218 62.792L42.6887 58.3139L29.8976 29.2879C35.0038 29.2879 39.6028 32.3307 41.5294 36.9893L47.0746 50.3985L56.0126 28.6038C57.9221 23.9452 62.5168 20.894 67.6187 20.894L50.0795 63.5936C48.4556 67.5933 46.5205 70.5102 44.2743 72.3484C42.0281 74.1867 39.1169 75.1058 35.5451 75.1058C32.6212 75.1058 30.1875 74.812 28.2354 74.2244V74.2202Z" fill="#54E399" /></svg>
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" style="display:block;flex:none;opacity:1;transform:none;max-width:none"><circle cx="12" cy="12" r="10" stroke="#1A7A4A" stroke-width="1.5" /><path d="M7.9 12.3l2.8 2.8 5.4-5.8" stroke="#1A7A4A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" /></svg>
+                  </span>
+                  <span style="margin:0;padding:0;border:0;background:none;color:inherit;font-weight:400;font-style:normal;letter-spacing:normal;text-transform:none;text-decoration:none;white-space:normal;float:none;display:flex;flex-direction:column;gap:5px;text-align:left;">
+                    <span style="margin:0;padding:0;border:0;background:none;font-style:normal;letter-spacing:normal;text-transform:none;text-decoration:none;white-space:normal;float:none;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:8.5px;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:rgba(5,31,33,0.5)">FlyRank AI Internship</span>
+                    <span style="margin:0;padding:0;border:0;background:none;font-style:normal;letter-spacing:normal;text-transform:none;text-decoration:none;white-space:normal;float:none;font-size:14px;font-weight:600;color:#051F21;letter-spacing:-0.01em;line-height:1.3">Machine Learning</span>
+                  </span>
+                  <span style="margin:0;padding:0;border:0;background:none;color:inherit;font-weight:400;font-style:normal;letter-spacing:normal;text-transform:none;text-decoration:none;white-space:normal;float:none;display:flex;flex-direction:column;gap:5px;padding-top:12px;border-top:1px solid #E4EAED;text-align:left;">
+                    <span style="margin:0;padding:0;border:0;background:none;font-style:normal;letter-spacing:normal;text-transform:none;text-decoration:none;white-space:normal;float:none;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:10.5px;color:#1A7A4A">FR-D1-T668H-R789R</span>
+                    <span style="margin:0;padding:0;border:0;background:none;font-style:normal;letter-spacing:normal;text-transform:none;text-decoration:none;white-space:normal;float:none;font-size:11.5px;color:rgba(5,31,33,0.5)">Verify credential ↗</span>
+                  </span>
+                </a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
